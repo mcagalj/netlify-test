@@ -30,8 +30,8 @@
 }
 
 .Button.open {
-  background: var(--color-gold, #000);
-  border: 1px solid var(--color-gold, #000);
+  background: var(--color-gatsby, #000);
+  border: 1px solid var(--color-gatsby, #000);
 }
 
 @media only screen and (max-width: 450px) {

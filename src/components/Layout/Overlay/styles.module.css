@@ -6,7 +6,7 @@
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: var(--color-gold, #000);
+  background-color: var(--color-gatsby, #000);
   transition: opacity ease 0.5s, width linear 0.01s 0.5s,
     height linear 0.01s 0.5s;
 }

@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "My first Gatsby application",
-    description: "Hello, World!"
+    title: "Welcome to FESB",
+    description:
+      "Find out how to build modern, fast and secure web applications."
   },
 
   plugins: [

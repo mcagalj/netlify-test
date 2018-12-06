@@ -1,13 +1,12 @@
 .Header {
-  --padding-top-bottom: var(--header-padding, 5px);
   top: 0;
   left: 0;
   right: 0;
+  height: var(--header-height, 3.5rem);
   z-index: var(--z-index-menu, 1000);
-  height: var(--header-height-, 40px);
-  background: #fff;
-  border-bottom: 1px solid var(--color-grey, #000);
-  margin-bottom: 40px;
+  background: var(--color-white, #fff);
+  border-bottom: 1px solid var(--color-grey, #eee);
+  margin-bottom: 2rem;
 }
 
 .Container {
@@ -18,10 +17,15 @@
 }
 
 .Logo {
-  --logo-padding: calc(var(--header-padding, 5px) + 1px);
-  font-weight: 500;
-  padding: var(--logo-padding) 0;
-  color: var(--color-gold, orange);
+  height: var(--header-height);
+  line-height: var(--header-height);
+  padding: 0 1rem;
+  color: #fff;
+  background-color: var(--color-gatsby, #000);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .Nav {
@@ -33,29 +37,38 @@
 }
 
 .NavLink {
+  --border-size: 4px;
   display: inline-block;
-  padding: var(--header-padding, 5px) 10px;
-  margin-left: 10px;
-  text-transform: uppercase;
+  padding: 0 0.75rem;
+  margin-left: 0.75rem;
+  line-height: calc(var(--header-height) - 2 * var(--border-size));
   cursor: pointer;
   white-space: nowrap;
-  font-size: 15px;
-  font-weight: normal;
-  color: var(--color-primary, #000000);
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-primary, #000);
+  border-top: var(--border-size, 3px) solid transparent;
+  border-bottom: var(--border-size, 3px) solid transparent;
   transition: all 0.25s linear;
-  overflow-x: hidden;
+  word-wrap: none;
 }
 
 .NavLink_active,
 .NavLink:hover {
-  color: var(--color-gold, orange);
-  border-bottom: 3px solid var(--color-gold, orange);
+  color: var(--color-gatsby, orange);
+  border-bottom: 3px solid var(--color-gatsby, orange);
 }
 
 @media only screen and (max-width: 450px) {
   .Nav {
     display: none;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

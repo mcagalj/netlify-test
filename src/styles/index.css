@@ -3,8 +3,9 @@
   --color-grey: #eeeeee;
   --color-dark-grey: #776666;
   --color-gold: #e67700;
+  --color-gatsby: rgb(102, 51, 153);
 
-  --header-height: 40px;
+  --header-height: 3.25rem;
   --header-padding: 5px;
 
   --z-index-menu: 1000;
@@ -49,12 +50,12 @@ body {
 }
 
 a {
-  color: var(--color-gold, orange);
+  color: var(--color-gatsby, orange);
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 3px solid var(--color-gold, orange);
+  border-bottom: 3px solid var(--color-gatsby, orange);
 }
 
 .figure {

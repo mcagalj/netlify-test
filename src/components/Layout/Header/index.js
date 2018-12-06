@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "components";
 import Nav from "./Nav";
 import NavLink from "./NavLink";
+import { Link } from "gatsby";
 import styles from "./styles.module.css";
 import navLinks from "config/menu.js";
 
@@ -15,7 +16,9 @@ export default () => {
   return (
     <header className={styles.Header}>
       <Container className={styles.Container}>
-        <span className={styles.Logo}>Gatsby</span>
+        <Link to="/" className={styles.Logo}>
+          Gatsby
+        </Link>
         <Nav>{nav}</Nav>
       </Container>
     </header>
