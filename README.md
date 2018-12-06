@@ -1,1 +1,1 @@
-"# Netlify test" 
+# Netlify test
