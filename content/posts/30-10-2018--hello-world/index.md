@@ -2,6 +2,7 @@
 date: "2018-10-30"
 title: "Hello, World!"
 slug: post-one
+image: "./images/alessandro-viaro-94370-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->

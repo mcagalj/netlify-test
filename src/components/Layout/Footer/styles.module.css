@@ -1,11 +1,26 @@
 .Footer {
-  margin-top: 1rem;
-  padding-bottom: 2rem;
-  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  font-size: 1rem;
   text-align: center;
-  color: var(--color-primary, #000);
+  color: #fff;
+  background: var(--color-gatsby);
 }
 
 .Container {
-  border-top: 1px solid var(--color-grey, #000);
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer a {
+  color: #ffffff;
+}
+
+.Footer a:hover {
+  color: var(--color-gold);
+  border: none;
+}
+
+.Copyright {
+  font-size: 0.8rem;
 }

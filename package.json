@@ -10,15 +10,23 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "fuse.js": "^3.3.0",
     "gatsby": "^2.0.34",
+    "gatsby-image": "^2.0.22",
     "gatsby-plugin-layout": "^1.0.6",
     "gatsby-plugin-sharp": "^2.0.10",
+    "gatsby-plugin-typography": "^2.2.2",
     "gatsby-remark-images": "^2.0.5",
     "gatsby-source-filesystem": "^2.0.6",
     "gatsby-transformer-remark": "^2.1.11",
+    "gatsby-transformer-sharp": "^2.1.9",
     "react": "^16.5.1",
     "react-burger-menu": "^2.5.4",
     "react-dom": "^16.5.1",
-    "rimraf": "^2.6.2"
+    "react-slick": "^0.23.2",
+    "react-typography": "^0.16.18",
+    "rimraf": "^2.6.2",
+    "slick-carousel": "^1.8.1",
+    "typography": "^0.16.18"
   }
 }

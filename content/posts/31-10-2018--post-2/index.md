@@ -2,6 +2,7 @@
 date: "2018-10-31"
 title: "Post 2"
 slug: post-two
+image: "./images/markos-mant-228858-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->

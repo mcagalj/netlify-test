@@ -2,6 +2,7 @@
 date: "2018-11-01"
 title: "Post 3"
 slug: post-three
+image: "./images/geran-de-klerk-136351-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->

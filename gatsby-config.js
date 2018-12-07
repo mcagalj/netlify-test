@@ -9,11 +9,26 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/pages`,
+        name: "pages"
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/posts`,
         name: "posts"
       }
     },
-    "gatsby-plugin-sharp",
+    // This plugin exposes helper functions for processing
+    // images with the NPM package “sharp”. It's used by
+    // several other plugins.
+    `gatsby-plugin-sharp`,
+    // This plugin identifies file nodes that are images and
+    // transforms these to create new “ImageSharp” nodes.
+    // With them you can resize images and
+    // generate responsive image thumbnails.
+    `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -27,6 +42,12 @@ module.exports = {
             }
           }
         ]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/config/typography"
       }
     },
     {

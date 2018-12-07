@@ -2,6 +2,7 @@
 date: "2018-11-02"
 title: "Post 4"
 slug: post-four
+image: "./images/austin-neill-222827-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->
