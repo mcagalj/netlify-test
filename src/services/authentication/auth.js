@@ -14,20 +14,24 @@ export const getUser = () =>
 const setUser = user =>
   window.localStorage.setItem("gatsbyUser", JSON.stringify(user));
 
-export const handleLogin = ({
-  username = "john",
-  password = "password"
-} = {}) => {
+export const handleLogin = ({ username, password }) => {
   // hardcoded user John Doe
   if (username === `john` && password === `password`) {
-    return setUser({
+    setUser({
       username: `john`,
       name: `John Doe`,
       email: `johndoe@fesb.hr`
     });
+
+    return {
+      error: false
+    };
   }
 
-  return false;
+  return {
+    error: true,
+    message: 'Invalid, try "john" & "password"'
+  };
 };
 
 export const isLoggedIn = () => {
