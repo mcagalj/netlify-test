@@ -40,6 +40,16 @@ module.exports = {
               linkImagesToOriginal: false,
               backgroundColor: "transparent"
             }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false
+            }
           }
         ]
       }
@@ -55,6 +65,10 @@ module.exports = {
       options: {
         component: require.resolve(`./src/components/Layout/index.js`)
       }
+    },
+    {
+      resolve: "gatsby-plugin-create-client-paths",
+      options: { prefixes: ["/private/*"] }
     }
   ]
 };

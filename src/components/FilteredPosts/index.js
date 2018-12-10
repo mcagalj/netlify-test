@@ -23,7 +23,6 @@ class FilteredProducts extends Component {
       keys: ["markdown.excerpt", "markdown.frontmatter.title"]
     };
     this.fuse = new Fuse(props.posts.markdowns, options);
-    console.log(props.posts.markdowns);
   }
 
   render() {
@@ -60,13 +59,16 @@ class FilteredProducts extends Component {
             borderBottom: "1px solid var(--color-grey)"
           }}
         >
-          <label style={{ position: "relative", marginLeft: "auto" }}>
+          <label
+            className={styles.Label}
+            style={{ position: "relative", marginLeft: "auto" }}
+          >
             <input
               className={styles.Input}
               type="search"
               value={this.state.search}
               onChange={e => this.setState({ search: e.target.value })}
-              placeholder="Pretražite blog"
+              placeholder="Search posts"
             />
             <SearchIcon className={styles.SearchIcon} />
           </label>

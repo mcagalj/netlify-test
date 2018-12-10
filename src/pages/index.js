@@ -58,7 +58,7 @@ export const query = graphql`
       markdowns: edges {
         markdown: node {
           id
-          excerpt
+          excerpt(pruneLength: 600)
           frontmatter {
             title
             slug

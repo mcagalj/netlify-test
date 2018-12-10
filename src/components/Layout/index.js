@@ -14,12 +14,6 @@ class Layout extends Component {
   };
 
   componentDidUpdate(prevProps, prevState) {
-    // console.log(
-    //   "componentDidUpdate",
-    //   prevProps.location.pathname,
-    //   this.props.location.pathname
-    // );
-
     const { showSideMenu } = this.state;
     if (prevState.showSideMenu !== showSideMenu) {
       document.body.className = showSideMenu ? "open" : "closed";

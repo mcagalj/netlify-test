@@ -7,6 +7,10 @@
   background: var(--color-gatsby);
 }
 
+.Footer p {
+  margin-bottom: 0;
+}
+
 .Container {
   display: flex;
   flex-direction: column;

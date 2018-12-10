@@ -1,5 +1,7 @@
 import Typography from "typography";
 
+const MOBILE_MEDIA_QUERY = "@media only screen and (max-width:480px)";
+
 const colors = {
   white: "#ffffff",
   primary: "#494949",
@@ -76,6 +78,12 @@ const typography = new Typography({
 
     "a:hover": {
       borderBottom: `3px solid ${colors.gatsby}`
+    },
+
+    [MOBILE_MEDIA_QUERY]: {
+      h1: {
+        fontSize: "1.75rem"
+      }
     }
   })
 });

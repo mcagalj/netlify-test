@@ -24,7 +24,8 @@
   transform: translateX(100%);
 }
 
-.NavLink {
+.NavLink,
+.PrivateLink {
   border-left: 3px solid transparent;
   border-top: none;
   border-bottom: none !important;
@@ -35,6 +36,12 @@
 .NavLink:hover {
   color: var(--color-gatsby, orange);
   border-left: 3px solid var(--color-gatsby, orange);
+}
+
+.PrivateLink_active,
+.PrivateLink:hover {
+  color: var(--color-gold, orange);
+  border-left: 3px solid var(--color-gold, orange);
 }
 
 /* You can use a CSS preprocessor to store breakpoint values in variables. */

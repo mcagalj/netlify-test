@@ -1,30 +1,32 @@
 ---
 date: "2018-11-01"
-title: "Post 3"
-slug: post-three
+title: "Forest"
+slug: forest
 image: "./images/geran-de-klerk-136351-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-# [Lorem Ipsum](https://www.lipsum.com/)
 
 <figure class="figure">
     <img src="./images/geran-de-klerk-136351-unsplash.jpg" alt="Title"/>
     <figcaption class="figure__caption">Title</figcaption>
 </figure>
 
-## What is Lorem Ipsum
+# Forest
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[Source: Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
 
-## Where does it come from?
+A forest is a large area dominated by trees. Hundreds of more precise definitions of forest are used throughout the world, incorporating factors such as tree density, tree height, land use, legal standing and ecological function. According to the widely used Food and Agriculture Organization definition, forests covered 4 billion hectares (9.9×109 acres) (15 million square miles) or approximately 30 percent of the world's land area in 2006.
+
+## Ecology
 
 <figure class="figure">
     <img src="./images/nathan-anderson-443540-unsplash.jpg" alt="Title"/>
     <figcaption class="figure__caption">Title</figcaption>
 </figure>
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Forests account for 75% of the gross primary productivity of the Earth's biosphere, and contain 80% of the Earth's plant biomass. Forest ecosystems can be found in all regions capable of sustaining tree growth, at altitudes up to the tree line, except where natural fire frequency or other disturbance is too high, or where the environment has been altered by human activity.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+The latitudes 10° north and south of the equator are mostly covered in tropical rainforest, and the latitudes between 53°N and 67°N have boreal forest. As a general rule, forests dominated by angiosperms (broadleaf forests) are more species-rich than those dominated by gymnosperms (conifer, montane, or needleleaf forests), although exceptions exist.
+
+Forests sometimes contain many tree species within a small area (as in tropical rain and temperate deciduous forests), or relatively few species over large areas (e.g., taiga and arid montane coniferous forests). Forests are often home to many animal and plant species, and biomass per unit area is high compared to other vegetation communities. Much of this biomass occurs below ground in the root systems and as partially decomposed plant detritus. The woody component of a forest contains lignin, which is relatively slow to decompose compared with other organic materials such as cellulose or carbohydrate.

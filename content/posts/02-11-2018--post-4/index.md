@@ -1,30 +1,32 @@
 ---
 date: "2018-11-02"
-title: "Post 4"
-slug: post-four
+title: "Blues"
+slug: blues
 image: "./images/austin-neill-222827-unsplash.jpg"
 ---
 
 <!-- markdownlint-disable MD033 -->
-
-# [Lorem Ipsum](https://www.lipsum.com/)
 
 <figure class="figure">
     <img src="./images/austin-neill-222827-unsplash.jpg" alt="Title"/>
     <figcaption class="figure__caption">Title</figcaption>
 </figure>
 
-## What is Lorem Ipsum
+# Blues
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[Source: Wikipedia](https://en.wikipedia.org/wiki/Blues)
 
-## Where does it come from?
+Blues is a music genre and musical form originated in the Deep South of the United States around the 1870s. The genre developed from roots, and spirituals. Blues incorporated spirituals, work songs, field hollers, shouts, chants, and rhymed simple narrative ballads. The blues form, ubiquitous in jazz, rhythm and blues and rock and roll, is characterized by the call-and-response pattern, the blues scale and specific chord progressions, of which the twelve-bar blues is the most common. Blue notes (or "worried notes"), usually thirds or fifths flattened in pitch, are also an essential part of the sound. Blues shuffles or walking bass reinforce the trance-like rhythm and form a repetitive effect known as the groove.
+
+## Etymology
+
+[Source: Wikipedia](https://en.wikipedia.org/wiki/Blues)
 
 <figure class="figure">
     <img src="./images/clem-onojeghuo-203219-unsplash.jpg" alt="Title"/>
     <figcaption class="figure__caption">Title</figcaption>
 </figure>
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The term blues may have come from "blue devils", meaning melancholy and sadness; an early use of the term in this sense is in George Colman's one-act farce Blue Devils (1798). The phrase blue devils may also have been derived from Britain in the 1600s, when the term referred to the "intense visual hallucinations that can accompany severe alcohol withdrawal". As time went on, the phrase lost the reference to devils, and "it came to mean a state of agitation or depression." By the 1800s in the United States, the term blues was associated with drinking alcohol, a meaning which survives in the phrase blue law, which prohibits the sale of alcohol on Sunday. Though the use of the phrase in African-American music may be older, it has been attested to in print since 1912, when Hart Wand's "Dallas Blues" became the first copyrighted blues composition.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+In lyrics the phrase is often used to describe a depressed mood. It is in this sense of a sad state of mind that one of the earliest recorded references to "the blues" was written by Charlotte Forten, then aged 25, in her diary on 14 December 1862. She was a free-born black from Pennsylvania who was working as a schoolteacher in South Carolina, instructing both slaves and freedmen, and wrote that she "came home with the blues" because she felt lonesome and pitied herself. She overcame her depression and later noted a number of songs, such as Poor Rosy, that were popular among the slaves. Although she admitted being unable to describe the manner of singing she heard, Forten wrote that the songs "can't be sung without a full heart and a troubled spirit", conditions that have inspired countless blues songs.
