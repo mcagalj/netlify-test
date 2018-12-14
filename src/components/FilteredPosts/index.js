@@ -22,8 +22,11 @@ class FilteredProducts extends Component {
       minMatchCharLength: 1,
       keys: ["markdown.excerpt", "markdown.frontmatter.title"]
     };
+
     this.fuse = new Fuse(props.posts.markdowns, options);
   }
+
+  onChange = event => this.setState({ search: event.target.value });
 
   render() {
     const { posts } = this.props;
@@ -35,12 +38,12 @@ class FilteredProducts extends Component {
       searchResults = this.fuse.search(search);
     }
 
-    const postsIndex = searchResults.map(({ markdown }) => {
+    const matchedPosts = searchResults.map(({ markdown }) => {
       const { id } = markdown;
       const { title, slug, image } = markdown.frontmatter;
 
       return (
-        <div key={id} className={styles.Wrapper}>
+        <div key={id} className={styles.PostContainer}>
           <Link to={`blog/${slug}`} className={styles.Link}>
             <h3 className={styles.Title}>{title}</h3>
             <Img fluid={image.childImageSharp.fluid} />
@@ -51,38 +54,20 @@ class FilteredProducts extends Component {
 
     return (
       <>
-        <div
-          style={{
-            display: "flex",
-            paddingTop: "1rem",
-            marginBottom: "1rem",
-            borderBottom: "1px solid var(--color-grey)"
-          }}
-        >
-          <label
-            className={styles.Label}
-            style={{ position: "relative", marginLeft: "auto" }}
-          >
+        <div className={styles.InputContainer}>
+          <label className={styles.Label}>
             <input
               className={styles.Input}
               type="search"
               value={this.state.search}
-              onChange={e => this.setState({ search: e.target.value })}
+              onChange={this.onChange}
               placeholder="Search posts"
             />
             <SearchIcon className={styles.SearchIcon} />
           </label>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-around"
-          }}
-        >
-          {postsIndex}
-        </div>
+        <div className={styles.ResultsContainer}>{matchedPosts}</div>
       </>
     );
   }
