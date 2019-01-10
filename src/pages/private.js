@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "components/SEO";
 import { PrivateRoute } from "components";
 import { Router } from "@reach/router";
 import Login from "components/Private/Login";
@@ -28,6 +29,7 @@ const Logout = () => (
 
 export default () => (
   <>
+    <SEO title="Private" />
     {isLoggedIn() ? (
       <Logout />
     ) : (

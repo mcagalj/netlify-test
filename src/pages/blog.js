@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import SEO from "components/SEO";
 import { BlogIndex } from "components";
 
 export default ({
@@ -9,6 +10,7 @@ export default ({
 }) => {
   return (
     <>
+      <SEO title="Blog" />
       <h1>Blog posts</h1>
       <BlogIndex posts={posts} />
     </>

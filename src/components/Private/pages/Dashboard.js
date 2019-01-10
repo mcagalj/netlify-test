@@ -1,7 +1,9 @@
 import React from "react";
+import SEO from "components/SEO";
 
 export default () => (
   <>
+    <SEO title="Dashboard" />
     <h1>Dashboard</h1>
     <p>
       <em>

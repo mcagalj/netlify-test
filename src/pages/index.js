@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import SEO from "components/SEO";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,6 +24,7 @@ export default ({ data: { naslovna, posts } }) => {
 
   return (
     <>
+      <SEO keywords={[`gatsby`, `application`, `react`]} />
       <div className={styles.ResponsiveSmall}>
         <Slider {...sliderConfig} slidesToShow={1}>
           {carousel}

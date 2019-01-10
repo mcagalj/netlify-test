@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "Welcome to FESB",
+    title: "Gatsby@FESB",
     description:
-      "Find out how to build modern, fast and secure web applications."
+      "Find out how to build modern, fast and secure web applications.",
+    author: "MC@FESB"
   },
 
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
